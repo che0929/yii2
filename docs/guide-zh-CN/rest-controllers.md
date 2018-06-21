@@ -157,7 +157,7 @@ public function prepareDataProvider()
 
 ### 执行访问检查 <span id="performing-access-check"></span>
 
-通过RESTful APIs显示数据时，经常需要检查当前用户是否有权限访问和操作所请求的资源，
+通过RESTful API 显示数据时，经常需要检查当前用户是否有权限访问和操作所请求的资源，
 在[[yii\rest\ActiveController]]中，
 可覆盖[[yii\rest\ActiveController::checkAccess()|checkAccess()]]方法来完成权限检查。
 
